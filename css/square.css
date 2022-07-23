@@ -1,0 +1,16 @@
+#square {
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+}
+
+.button_box {
+    position: absolute;
+    top: 50px;
+    margin-top: 220px;
+    padding-left: 15px;
+}
+
+.button_box button {
+    margin-left: 20px;
+}
