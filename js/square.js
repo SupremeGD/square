@@ -43,7 +43,6 @@ var left = 0;
 btn4.onclick = function button_4() {
     left = left + 200;
     div.style.transform = "translateX(" + left + "px)";
-    //right = parseInt(right + 200);
 }
 
 //按钮5
