@@ -39,15 +39,15 @@ btn3.onclick = function button_3() {
 }
 
 //按钮4
-var right = 200;
+var left = 0;
 btn4.onclick = function button_4() {
-    div.style.transform = "translateX(" + right + "px)";
-    right = parseInt(right + 200);
+    left = left + 200;
+    div.style.transform = "translateX(" + left + "px)";
+    //right = parseInt(right + 200);
 }
 
 //按钮5
-var left = parseInt(btn4.right- 200);
 btn5.onclick = function button_5() {
+    left = left -200;
     div.style.transform = "translateX(" + left + "px)";
-    left = parseInt(left - 200);
 }
